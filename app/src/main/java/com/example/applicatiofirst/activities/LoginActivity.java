@@ -1,4 +1,3 @@
-// LoginActivity.java
 package com.example.applicatiofirst.activities;
 
 import android.content.Intent;

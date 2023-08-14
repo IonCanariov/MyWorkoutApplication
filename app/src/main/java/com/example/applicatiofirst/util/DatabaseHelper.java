@@ -1,4 +1,3 @@
-// DatabaseHelper.java
 package com.example.applicatiofirst.util;
 
 import android.annotation.SuppressLint;
@@ -63,8 +62,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         // Handle database upgrades if needed
     }
 
-    // User related methods
-
     public long insertUser(String username, String password) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -93,9 +90,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.close();
         return user;
     }
-
-    // Workout plan related methods
-
     public long insertWorkoutPlan(String wpName, String timeGoal, String type, int userId) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();

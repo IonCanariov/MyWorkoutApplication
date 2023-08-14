@@ -1,4 +1,3 @@
-// WorkoutPlanAdapter.java
 
 package com.example.applicatiofirst.adapters;
 
