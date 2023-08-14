@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/workoutNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Workout Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/workoutTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Workout Type"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/timeGoalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time Goal"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/createWorkoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Workout" />
+</LinearLayout>

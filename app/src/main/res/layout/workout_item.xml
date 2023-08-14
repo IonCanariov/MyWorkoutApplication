@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/workoutNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Workout Name" />
+
+    <TextView
+        android:id="@+id/workoutTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workout Type" />
+
+    <TextView
+        android:id="@+id/timeGoalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Goal" />
+
+    <!-- Edit and Delete buttons -->
+    <ImageButton
+        android:id="@+id/editWorkoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit" />
+
+    <ImageButton
+        android:id="@+id/deleteWorkoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete" />
+
+</LinearLayout>

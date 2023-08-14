@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/exerciseNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exercise Name"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/setsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sets"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/repsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reps"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/createExerciseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Exercise" />
+
+</LinearLayout>
